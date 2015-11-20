@@ -1,0 +1,19 @@
+					<?php
+					$e_id="ap_1";
+					$query=mysql_query("select * from exams where id='$e_id'")or die(mysql_error());
+					$ar=mysql_fetch_row($query);
+					$e_id=$ar[0];
+					$e_name=$ar[1];
+					$e_type=$ar[2];
+					$e_date=$ar[3];
+					$no_q=$ar[4];
+					$e_duration=$ar[5];
+					$e_pass=$ar[6];
+					$e_inv=$ar[7];
+					$paper_status=$ar[8];
+					$results=$ar[9];
+					$key_status=$ar[10];
+					$exam_active=$ar[11];
+					$reg=$ar[12];
+					$e_ngm=$ar[13];
+					?>

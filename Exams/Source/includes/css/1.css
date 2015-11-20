@@ -1,0 +1,56 @@
+div[id="login_table"]
+{
+	width : 400px;
+	height: 300px;
+	padding: 5px;
+	position: relative;
+	border : 0px solid grey;
+	text-align: center;
+	background-color: #F9F9F9;
+	box-shadow: 0px 2px 3px #bfbfbf;
+	-moz-box-shadow: 0px 2px 3px #bfbfbf;
+	-webkit-box-shadow: 0px 2px 3px #bfbfbf;
+}
+div[id="login_table"] input[id="field"]
+{
+	width : 300px;
+	height: 40px;
+	font-size: 1em;
+	padding: 5px;
+	padding-bottom: 0px;
+	position: relative;
+	border : 1px solid #E4E4E4;
+	border-top : 1px solid #D4D4D4;
+}
+div[id="login_table"] input[id="login"]
+{
+	width : 300px;
+	height: 40px;
+	font-size: 1em;
+	cursor: pointer;
+	font-weight:bold;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: #797CFF;
+	position: relative;
+	border : 1px solid #797CFF;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+div[id="login_table"] button[id="login_error"]
+{
+	width : 300px;
+	height : 20px;
+	font-size: 0.75em;
+	padding: 2px;
+	text-align: center;
+	color: white;
+	background-color: #BA1414;
+	border : 1px solid red;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
